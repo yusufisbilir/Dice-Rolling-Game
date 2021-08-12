@@ -25,5 +25,7 @@ function roll(){
         document.querySelector("#dice1").setAttribute("src",images[diceOneVal]);
         document.querySelector("#dice2").setAttribute("src",images[diceTwoVal]);
 
+        document.querySelector("#total").innerHTML = " Your roll is " + ((diceOneVal + 1) + (diceTwoVal + 1))
+
     }, 1000);
 };

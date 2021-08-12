@@ -61,6 +61,7 @@ button {
   width: 150px;
   letter-spacing: 1px;
   border-radius: 8px;
+  cursor: pointer;
 }
 
 .shake {
